@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Sweet Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-0" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0"><i>Home Sweet Home</i></h1>          
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre-nos" class="nav-link">
+                            <i class="bi bi-houses"></i>
+                            Sobre nós
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#coworking" class="nav-link">
+                            <i class="bi bi-c-circle"></i>
+                            Coworking
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#bazar" class="nav-link">
+                            <i class="bi bi-bag-heart me-1"></i>
+                            Bazar
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#interiores" class="nav-link">
+                            <i class="bi bi-house me-1"></i>
+                            Interiores
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#baterias" class="nav-link">
+                            <i class="bi bi-battery me-1"></i>
+                            Baterias
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#entregas" class="nav-link">
+                            <i class="bi bi-truck"></i> 
+                            Entregas | Encomendas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-nos">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./images/slide1.png.jpg" class="w-100" style="height: 960px;" alt="room">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/baby_room.jpg" class="w-100" style="height: 960px;" alt="bedroom">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./images/bedroom.jpg" class="w-100" style="height: 960px;" alt="baking">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="300">
+                        <img src="./images/cozinha_americana.jpg" class="w-100" style="height: 960px;" alt="cozinha americana">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            
+                        </div>
+                        <div class="col-md-7"></div>
+                    </div>
+                </div>           
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/sobre.jpg" class="d-block w-100 rounded" alt="sala principal" >
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0" id="sobre-nos">
+                            <h2 class="p-2 pt-0 fw-bold">Sobre nós</h2>
+                        <p>
+                            Nascida através de um pensamento diferenciado, a HSH - Home Sweet Home - é a sua loja de ambientes internos e decoração. Com um foco único na criação de espaços acolhedores e personalizados, oferecemos uma vasta seleção de móveis e decorações para transformar a sua casa em um verdadeiro lar. Descubra o conforto e a elegância em cada detalhe, tornando o seu lar doce lar ainda mais especial. Seja bem-vindo à HSH, onde o seu estilo se encontra com a qualidade e a beleza.
+                        </p>
+                    </div>
+                </div>   
+            </div>             
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/coworking.jpg" class="d-block w-100 rounded" alt="sala de coworking">
+                        </div>
+                        <div class="col-md-7 mt-md-0" id="coworking">
+                            <h2 class="p-2 pt-0 fw-bold">Coworking</h2>
+                            <p>
+                                Ter um coworking como seu local de trabalho oferece inúmeros benefícios. Compartilhar espaço com outros profissionais promove networking e colaboração. A infraestrutura é pronta, economizando tempo e custos. A flexibilidade permite escolher quando e onde trabalhar. Ambiente inspirador e ambiente de trabalho profissional estimulam a produtividade. Além disso, a comunidade do coworking oferece suporte e motivação. Essa escolha inteligente traz eficiência, crescimento profissional e uma experiência de trabalho gratificante.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="bazar" class="pt-5 pb-9">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center fw-bold">Bazar</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/lavanderia.jpg" class="d-block rounded" alt=" cheiros para lavanderia" width="300" height="200">
+                        <h3 class="fw-bold pt-3">
+                            <i class="bi bi-lamp-fill"></i>
+                            Iluminação
+                        </h3>                        
+                        <p>
+                            A boa iluminação é essencial para criar ambientes funcionais e acolhedores. Ela influencia o nosso humor, produtividade e conforto. Uma iluminação bem planejada equilibra luz natural e artificial, destacando pontos focais e criando atmosferas. Escolher a temperatura certa de cor da luz é crucial, pois afeta a sensação do espaço. Luminárias modernas e eficientes economizam energia. A iluminação personalizada atende às necessidades de cada espaço, promovendo bem-estar e beleza em todos os ambientes.
+                        </p>
+                </div>
+                    <div class="col-md-4">
+                        <img src="./images/talheres.jpg" class="d-block rounded" alt="talheres" width="300" height="200">
+                        <h3 class="fw-bold pt-3">
+                            <i class="bi bi-award-fill"></i>
+                            Prataria
+                        </h3>
+                        <p>
+                            Os talheres de prata são peças elegantes e atemporais que adicionam um toque de sofisticação a qualquer mesa. Feitos de prata genuína, eles exibem brilho e requinte, tornando cada refeição uma experiência especial. Seu design clássico e durabilidade os tornam uma escolha valiosa para ocasiões especiais e heranças de família. Os talheres de prata representam a união de beleza e funcionalidade, elevando o charme de qualquer refeição.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/decoracao.jpg" class="d-block rounded" alt="cozinha equipada americana" width="300" height="200">
+                        <h3 class="fw-bold pt-3">
+                            <i class="bi bi-house-fill"></i>
+                            Decoração verde
+                        </h3>
+                        <p>
+                            Decoração com cactos pequenos em casa é uma tendência charmosa e prática. Essas plantas suculentas trazem um toque de natureza para espaços internos, requerendo pouca manutenção. Colocados em vasos decorativos, os cactos adicionam uma sensação de calma e estilo ao ambiente. Eles se encaixam perfeitamente em prateleiras, mesas e até mesmo no escritório, adicionando um toque de verde à decoração. Além de serem esteticamente agradáveis, os cactos também ajudam a purificar o ar, tornando-os uma escolha inteligente para uma casa saudável e elegante.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="interiores" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center fw-bold mt-4">Interiores</h2>
+                </div>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-colum nav-opcao">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#cozinha" class="fw-bold text-start nav-link active text-colored">Cozinha</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#sala" class="fw-bold text-start nav-link text-colored">Sala</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#quarto" class="fw-bold text-start nav-link text-colored">Quarto</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#jardim" class="fw-bold text-start nav-link text-colored">Jardim</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="cozinha">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./images/american_kitchen.jpg" class=" d-block w-100 rounded" alt="cozinha americana" width="300" height="100">
+                                            <h5 class="fw-bold mt-2">Americana</h5>
+                                            <p>
+                                                Uma cozinha americana, promove interação e fluidez nos espaços. Facilita a comunicação entre familiares e convidados durante o preparo das refeições, criando um ambiente acolhedor. Além disso, maximiza o espaço, proporciona luminosidade e promove um visual moderno e arejado. É perfeita para quem valoriza convívio e praticidade na casa.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./images/kitchen-marmore.jpg" class="d-block w-100 rounded" alt="biblioteca" width="300" height="100">
+                                            <h5 class="fw-bold mt-2">Detalhes em mármore</h5>
+                                            <p>
+                                                Com detalhes em mármore é sinônimo de elegância e sofisticação. O mármore, com suas texturas naturais e tons luxuosos, adiciona um toque de requinte ao ambiente. Desde bancadas espaçosas até backsplashes encantadores, o mármore é versátil e durável. Sua fácil manutenção e resistência a manchas o tornam uma escolha prática. Além disso, a sua beleza intemporal valoriza qualquer estilo de decoração, tornando a cozinha um espaço impressionante e funcional. Um toque de luxo que transforma o coração da casa em um local de inspiração e conforto.                                            
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./images/cozinha-livre.jpg" class="d-block w-100 rounded" width="300" height="100" alt="quarto de bebe">
+                                            <h5 class="fw-bold mt-2">Piso em madeira</h5>
+                                            <p>
+                                                O piso em madeira é a combinação perfeita de rusticidade e calor. A textura natural da madeira adiciona charme e aconchego ao espaço. Além de sua beleza, a madeira é durável e fácil de limpar. O chão de madeira cria uma atmosfera acolhedora, convidando à convivência e refeições em família. Seu apelo atemporal se adapta a diversos estilos de decoração, tornando a cozinha um lugar acolhedor e agradável para cozinhar e desfrutar de momentos especiais.                                            
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./images/cozinha-pequena.jpg" class="d-block w-100 rounded" alt="biblioteca" width="300" height="100">
+                                            <h5 class="fw-bold mt-2">Para pequenos espaços</h5>
+                                            <p>
+                                                Planejar um espaço pequeno oferece benefícios significativos. A otimização do uso do espaço maximiza a funcionalidade e a organização. A escolha de móveis e cores adequados cria a ilusão de espaço. Menos desordem promove uma sensação de tranquilidade. Além disso, a economia de recursos é eficaz e ecologicamente correta. O planejamento inteligente transforma um espaço pequeno em um ambiente prático, aconchegante e eficiente.                                            
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="sala">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./images/sala-estar.jpg" class=" d-block w-100 rounded" alt="cozinha americana" width="300" height="100">
+                                            <h5 class="fw-bold mt-2">Boa iluminação</h5>
+                                            <p>
+                                                Com paredes brancas e boa iluminação é um refúgio de serenidade. O branco amplia visualmente o espaço, criando uma sensação de amplitude. A luz natural destaca a pureza das cores, promovendo um ambiente acolhedor. Essa combinação eleva a sensação de paz e tranquilidade, proporcionando um espaço convidativo para relaxar, socializar e inspirar a criatividade. Um planejamento luminoso e sereno para desfrutar momentos especiais.                                            
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./images/sala-jantar.jpg" class="d-block w-100 rounded" alt="biblioteca" width="300" height="100">
+                                            <h5 class="fw-bold mt-2">Sala de jantar</h5>
+                                            <p>
+                                                Detalhes em iluminação, gesso e madeira é um convite ao requinte. A iluminação estrategicamente posicionada realça o ambiente. O gesso no teto adiciona elegância e permite a criação de efeitos luminosos. A madeira, seja em móveis ou pisos, traz aconchego e contraste. Essa combinação cria uma atmosfera acolhedora e sofisticada, perfeita para jantares memoráveis e encontros familiares. Uma sala de jantar que harmoniza luz, texturas e elegância para momentos especiais.                                            
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./images/sala-jogos.jpg" class="d-block w-100 rounded" width="300" height="100" alt="quarto de bebe">
+                                            <h5 class="fw-bold mt-2">Gamer</h5>
+                                            <p>
+                                                LED é um santuário para entusiastas. As luzes LED proporcionam atmosfera dinâmica e personalizável. Equipada com cadeiras confortáveis e equipamentos de alta tecnologia, é o local ideal para mergulhar em aventuras virtuais com estilo e conforto.                                            
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./images/sala-leitura.jpg" class="d-block w-100 rounded" width="300" height="100" alt="sala de leitura">
+                                            <h5 class="fw-bold mt-2">Leitura</h5>
+                                            <p>
+                                                Uma sala de leitura oferece um refúgio para a mente e a alma. Com prateleiras repletas de livros, móveis confortáveis e iluminação suave, é o local perfeito para relaxar, aprender e escapar. Os benefícios incluem estimular a criatividade, reduzir o estresse e expandir horizontes intelectuais. Um refúgio tranquilo para amantes da leitura.                                        
+                                            </div>                                           
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="quarto">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./images/bedroom.jpg" class=" d-block w-100 rounded" alt="cozinha americana" width="300" height="100">
+                                            <h5 class="fw-bold mt-2">Oriental</h5>
+                                            <p>
+                                                A fusão de serenidade e elegância. Caracterizada por móveis de madeira escura, elementos de design minimalista e cores suaves, essa estética cria uma atmosfera de tranquilidade. Detalhes como tapetes persas, lanternas de papel e almofadas com motivos orientais adicionam charme. A simplicidade e harmonia na decoração convidam ao relaxamento e meditação, criando um refúgio acolhedor.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./images/industrial.jpg" class="d-block w-100 rounded" alt="biblioteca" width="300" height="100">
+                                            <h5 class="fw-bold mt-2">Industrial</h5>
+                                            <p>
+                                                A sofisticação em detalhes simples faz do estilo industrial uma escolha única. Com foco em materiais crus como metal e concreto, esse design incorpora elementos robustos e linhas limpas. A combinação de tons neutros, móveis de aparência vintage e iluminação de destaque cria uma estética ousada e urbana. A simplicidade elegante do estilo industrial valoriza o equilíbrio entre forma e função, tornando cada espaço cativante e moderno.
+                                            </p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img src="./images/baby_room.jpg" class="d-block w-100 rounded" width="300" height="100" alt="quarto de bebe">
+                                            <h5 class="fw-bold mt-2">Quarto Bebê</h5>
+                                            <p>
+                                                Com muita suavidade nas cores, desde tons pastel às cores das paredes, o quarto para o seu bebê é um oásis de tranquilidade. O design foca na funcionalidade e conforto, com móveis seguros e espaço bem organizado. Detalhes como berço aconchegante, decoração lúdica e iluminação suave criam um ambiente acolhedor. Esse refúgio calmo e encantador proporciona ao seu bebê um começo de vida sereno e agradável.
+                                            </p>
+                                        </div>                                        
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="jardim">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img src="./images/decoracao-jardim.jpg" class=" d-block w-100 rounded" alt="mesa e cadeiras de ferro" width="300" height="100">
+                                            <h5 class="fw-bold mt-2">Externo</h5>
+                                            <p>
+                                                O toque do ferro combinado com a pintura atemporal preta confere elegância à decoração de jardim. Mesas e cadeiras de ferro preto adicionam um charme clássico ao espaço ao ar livre. O contraste com a vegetação realça a beleza natural. A durabilidade do ferro garante que a decoração permaneça sofisticada ao longo das estações, proporcionando um cenário encantador para momentos ao ar livre.
+                                            </p>                                    
+                                        </div> 
+                                        <div class="col-md-3">
+                                            <img src="./images/mini-interno.jpg" class=" d-block w-100 rounded" alt="cactos" width="300" height="100">
+                                            <h5 class="fw-bold mt-2">Interno</h5>
+                                            <p>
+                                                Mini cactos, dispostos sobre uma bancada, trazem a natureza para a decoração interna da casa. Com sua forma única e baixa manutenção, adicionam um toque de frescor e charme natural. Os cactos são uma escolha versátil, complementando diversos estilos de decoração, e proporcionam um ambiente acolhedor e sereno.
+                                            </p>                                    
+                                        </div>                                                                         
+                                    </div>                                    
+                            </div>
+                        </div>                 
+        </section>
+        <section id="baterias">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center fw-bold pt-3 pb-3">Baterias</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="./images/pilhas.jpg" class="w-100 d-block rounded pb-4" alt="pilhas-descartadas" width="320" height="320">
+                    </div>
+                    <div class="col-md-7">
+                        <p>
+                            A reciclagem de pilhas e baterias desempenha um papel crucial na preservação do meio ambiente e na prevenção da poluição. Esses dispositivos contêm substâncias tóxicas, como metais pesados, que podem vazar e contaminar o solo e a água quando descartados inadequadamente. A reciclagem adequada evita a liberação dessas toxinas, reduzindo danos à saúde humana e ao ecossistema. Além disso, reciclar esses materiais recupera metais valiosos, economizando recursos naturais e energia. É uma prática simples, mas essencial, para um planeta mais limpo e sustentável.
+                        </p>                                                    
+                    </div>                   
+                </div>
+            </div>
+        </section>
+        <section id="entregas">
+            <div class="container">
+                <div class="row pt-5">
+                    <h2 class="fw-bold pt-5 text-center">Entregas | Encomendas</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 pt-5 pb-2">
+                        <img src="./images/entregador.jpg" class="w-100 d-block rounded mt-5 pb-5" alt="entregador">
+                        <h5 class="fw-bold text-center">Entregas</h5>
+                        <p>
+                            Transporte de encomenda altamente responsável e seguro é a nossa promessa na Home Sweet Home. Com uma equipe dedicada e experiente, entregamos com cuidado e eficiência. Cada pacote é tratado com a máxima atenção, garantindo que seus itens cheguem intactos e pontualmente. Priorizamos a segurança, a proteção e a satisfação do cliente em cada entrega. Conte conosco para fornecer um serviço de transporte de confiança que supera expectativas e protege o que é valioso para você. Seu parceiro de entrega confiável, Home Sweet Home.
+                        </p>
+                    </div>
+                    <div class="col-md-7 pt-5 pb-5">
+                        <h5 class="fw-bold text-center">Encomendas</h5>
+                        <p class="text-center">
+                            Oferecemos o serviço de entrega mais rápido do país, entregando seus produtos em tempo recorde. Com nossa logística eficiente e compromisso com a satisfação do cliente, garantimos que seus pedidos cheguem à sua porta com agilidade e segurança. Simplifique sua vida com nossa entrega rápida e confiável. Conte conosco para levar conforto e qualidade até você.
+                        </p>
+                        <img src="./images/pacotes.jpg" class="w-100  d-block rounded" alt="entrega" width="400" height="500">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center pt-5 pb-5">Contato</h2>
+                </div>
+                <div>
+                    <div class="row mt-4 mb-4">
+                        <div class="col-md-7 mb-5">
+                            <form id="form">
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold">Seu e-mail</label>
+                                    <input type="email" id="email" class="form-control" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold">Seu telefone</label>
+                                    <input type="tel" id="telefone" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold">Sua Mensagem</label>
+                                    <textarea class="form-control" id="mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="fs-4">
+                                    <i class="bi bi-hand-index-thumb-fill"></i>
+                                    Redes sociais
+                                </h3>
+                                <ul class="social-links">
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-facebook"></i>
+                                            Facebook
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-instagram"></i>
+                                            Instagram
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp"></i>
+                                            WhatsApp
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <h3 class="fs-4 mt-4">
+                                    <i class="bi bi-cursor-fill"></i>                                    
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua São Mateus, 152 - Cascais Portugal Lisboa
+                                </p>                                
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./jquery-plugins/jquery.mask.min.js"></script>
+    <script>
+        $('#telefone').mask('(00)00000-0000')
+    </script>    
+    <footer id="footer">
+        <p class="text-center fw-bold">
+            2023 &copy; Home Sweet Home - Todos os direitos reservados.
+        </p>    
+    </footer>
+</body>
+</html>
