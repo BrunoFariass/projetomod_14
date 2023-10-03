@@ -1,0 +1,98 @@
+body {
+    font-family: Mooli;
+}
+
+
+.navbar {
+    background-color: rgb(224, 194, 117)
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #6e619d;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link
+.navbar-brand:hover,
+.nav-opcao .nav-link.active:hover {
+    color: #fff;
+} 
+
+.navbar-brand {
+    font-family: 'Mooli', sans-serif;
+}
+
+.navbar-toggler {
+    background-color: rgba(221, 219, 209, 0.745);
+    
+}
+
+ul {
+    padding: 8px;
+    list-style: none;
+    font-weight: bold;
+}
+
+#bazar {
+    background-color: #c69ec5;
+}
+
+#espaco {
+    background-color: #ca77c8;
+}
+
+#interiores {
+    background-color: rgb(179, 226, 226);
+}
+
+#entregas {
+    background-color: #bedb93;
+}
+
+#sobre-nos {
+    background-color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contato button {
+    background-color: rgb(74, 74, 232);
+    color: #fff;
+}
+
+@media (max-width:767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+    
+}
+
+.text-colored {
+    color: #e15f41;
+}
+.nav-opcao .nav-link.active {
+    background-color: #e15f41;
+}
+
+.nav-opcao .nav-link:hover {
+    color: #e15f41
+}
+
+#mensagem {
+    resize: none;
+}
+
+#footer {
+    background-color: rgb(224, 194, 117)
+}
+#paragrafo {
+    background-color: rgb(224, 194, 117);
+}
